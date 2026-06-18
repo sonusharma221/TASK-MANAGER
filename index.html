@@ -3,12 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task manager</title>
     <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <nav>
+        <section class="manageTask">
+            <h3>Manage Your Tasks</h3>
+            <div class="icon">i</div>
+        </section>
+    </nav>
+    <main>
+        <section class="TaskPoint">
+            <div class="Totaltask">
+                <p class="count">0</p>
+                <p>Total Tasks</p>
+            </div>
+            <div class="PendingTasks">
+                <p class="count">0</p>
+                <p>Pending Tasks</p>
+            </div>
+            <div class="CompletedTasks">
+                <p class="count">0</p>
+                <p>Completed Tasks</p>
+            </div>
+        </section>
+        <section class="createTask">
+            <h2>Create Task</h2>
+            <input class="box" type="text" placeholder="Enter task tittle...">
+            <select class="box">
+                <option value="Category" disabled selected>Select Category</option>
+                <option value="Work">Work</option>
+                <option value="Study">Study</option>
+                <option value="Personal">Personal</option>
+                <option value="Health">Health</option>
+            </select>
+            <button class="box btn">CreateTask</button>
+        </section>
+
+        <section class="Task">
+            <div class="left">
+                <h3>hii</h3>
+                <div class="bt">
+                    <div class="Study">Study</div>
+                    <div class="Pending">Pending</div>
+
+                </div>
+            </div>
+            <div class="right">
+                <button class="Edit">Edit</button>
+                <button class="Complete">Complete</button>
+                <button class="Delete">Delete</button>
+            </div>
+        </section>
+    </main>
+
     
-    hello dosto this is 
     <script src="script.js"></script>
 </body>
 </html>
