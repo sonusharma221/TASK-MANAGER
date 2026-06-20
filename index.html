@@ -14,7 +14,9 @@
     <nav>
         <section class="manageTask">
             <h3>Manage Your Tasks</h3>
-            <div class="icon">i</div>
+            <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+                <span class="theme-label">Light</span>
+            </button>
         </section>
     </nav>
     <main>
@@ -32,9 +34,9 @@
                 <p>Completed Tasks</p>
             </div>
         </section>
-        <section class="createTask">
+        <form class="createTask">
             <h2>Create Task</h2>
-            <input class="box" type="text" placeholder="Enter task tittle...">
+            <input class="box " type="text" placeholder="Enter task tittle...">
             <select class="box">
                 <option value="Category" disabled selected>Select Category</option>
                 <option value="Work">Work</option>
@@ -43,23 +45,7 @@
                 <option value="Health">Health</option>
             </select>
             <button class="box btn">CreateTask</button>
-        </section>
-
-        <section class="Task">
-            <div class="left">
-                <h3>hii</h3>
-                <div class="bt">
-                    <div class="Study">Study</div>
-                    <div class="Pending">Pending</div>
-
-                </div>
-            </div>
-            <div class="right">
-                <button class="Edit">Edit</button>
-                <button class="Complete">Complete</button>
-                <button class="Delete">Delete</button>
-            </div>
-        </section>
+        </form>
     </main>
 
     
